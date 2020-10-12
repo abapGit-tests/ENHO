@@ -19,9 +19,9 @@
      <FULL_NAME>\TY:CL_ABAPWD_FLIGHT_MODEL\ME:GET_BOOKINGS\SE:BEGIN\EI</FULL_NAME>
      <SOURCE>
       <item/>
-      <item>DO 10 TIMES.</item>
+      <item>  DO 10 TIMES.</item>
       <item/>
-      <item>ENDDO.</item>
+      <item>  ENDDO.</item>
       <item/>
      </SOURCE>
     </ENH_HOOK_IMPL>
@@ -31,35 +31,43 @@
      <FULL_NAME>\TY:CL_ABAPWD_FLIGHT_MODEL\ME:GET_BOOKINGS\SE:END\EI</FULL_NAME>
      <SOURCE>
       <item/>
-      <item>LOOP AT bookings ASSIGNING FIELD-SYMBOL(&lt;ls_booking&gt;).</item>
+      <item>  LOOP AT bookings ASSIGNING FIELD-SYMBOL(&lt;ls_booking&gt;).</item>
       <item/>
-      <item>ENDLOOP.</item>
+      <item>  ENDLOOP.</item>
       <item/>
      </SOURCE>
     </ENH_HOOK_IMPL>
    </ENHANCEMENTS>
-   <SPACES>
+   <SOTR>
     <item>
-     <FULL_NAME>\TY:CL_ABAPWD_FLIGHT_MODEL\ME:GET_BOOKINGS\SE:BEGIN\EI</FULL_NAME>
-     <SPACES>
-      <item>0</item>
-      <item>2</item>
-      <item>0</item>
-      <item>2</item>
-      <item>0</item>
-     </SPACES>
+     <HEADER>
+      <CONCEPT>000D3A8FA0651EEB82E455A8174B686B</CONCEPT>
+      <CREA_LAN>E</CREA_LAN>
+      <TRALA_TYPE>1</TRALA_TYPE>
+      <OBJID_VEC>AAI=</OBJID_VEC>
+     </HEADER>
+     <ENTRIES>
+      <SOTR_TEXT>
+       <CONCEPT>000D3A8FA0651EEB82E455A8174B686B</CONCEPT>
+       <LANGU>E</LANGU>
+       <LFD_NUM>0001</LFD_NUM>
+       <FLAG_CNTXT>X</FLAG_CNTXT>
+       <STATUS>R</STATUS>
+       <LENGTH>038</LENGTH>
+       <TEXT>test implicit enhancement</TEXT>
+      </SOTR_TEXT>
+     </ENTRIES>
     </item>
-    <item>
-     <FULL_NAME>\TY:CL_ABAPWD_FLIGHT_MODEL\ME:GET_BOOKINGS\SE:END\EI</FULL_NAME>
-     <SPACES>
-      <item>0</item>
-      <item>2</item>
-      <item>0</item>
-      <item>2</item>
-      <item>0</item>
-     </SPACES>
-    </item>
-   </SPACES>
+   </SOTR>
+   <SOTR_USE>
+    <SOTR_USE>
+     <PGMID>R3TR</PGMID>
+     <OBJECT>ENHO</OBJECT>
+     <OBJ_NAME>ZTEST_IMPLICIT_ENHO</OBJ_NAME>
+     <CONCEPT>000D3A8FA0651EEB82E455A8174B686B</CONCEPT>
+     <LFD_NUM>0001</LFD_NUM>
+    </SOTR_USE>
+   </SOTR_USE>
   </asx:values>
  </asx:abap>
 </abapGit>
