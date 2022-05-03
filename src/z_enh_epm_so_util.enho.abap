@@ -18,15 +18,15 @@ CLASS lcl_z_enh_epm_so_util IMPLEMENTATION.
 *"------------------------------------------------------------------------*
 *" Declaration of POST-method, do not insert any comments here please!
 *"
-*"methods EPM_SO_UPDATE
-*"  importing
-*"    !IT_SO_HEADER type /IWBEP/IF_EPM_SO_UTIL=>TT_EPM_SO_HEADER optional
-*"    !IT_SO_ITEM type /IWBEP/IF_EPM_SO_UTIL=>TT_EPM_SO_ITEM optional
-*"  changing
-*"    !ET_RETURN type BAPIRET2_T
-*"    !ET_SO_HEADER type /IWBEP/IF_EPM_SO_UTIL=>TT_EPM_SO_HEADER
-*"    !ET_SO_ITEM type /IWBEP/IF_EPM_SO_UTIL=>TT_EPM_SO_ITEM
-*"    !EV_SUCCESS type /IWBEP/IF_EPM_SO_UTIL=>TS_SUCCESS .
+*"METHODS epm_so_update
+*"  IMPORTING
+*"    !it_so_header TYPE /iwbep/if_epm_so_util=>tt_epm_so_header OPTIONAL
+*"    !it_so_item   TYPE /iwbep/if_epm_so_util=>tt_epm_so_item OPTIONAL
+*"  CHANGING
+*"    !et_return    TYPE bapiret2_t
+*"    !et_so_header TYPE /iwbep/if_epm_so_util=>tt_epm_so_header
+*"    !et_so_item   TYPE /iwbep/if_epm_so_util=>tt_epm_so_item
+*"    !ev_success   TYPE /iwbep/if_epm_so_util=>ts_success .
 *"------------------------------------------------------------------------*
 
   ENDMETHOD.
