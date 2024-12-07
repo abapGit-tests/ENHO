@@ -26,7 +26,7 @@ CLASS lcl_z_enh_epm_so_util IMPLEMENTATION.
 *"    !et_return    TYPE bapiret2_t
 *"    !et_so_header TYPE /iwbep/if_epm_so_util=>tt_epm_so_header
 *"    !et_so_item   TYPE /iwbep/if_epm_so_util=>tt_epm_so_item
-*"    !ev_success   TYPE /iwbep/if_epm_so_util=>ts_success .
+*"    !ev_success   TYPE /iwbep/if_epm_so_util=>ts_success.
 *"------------------------------------------------------------------------*
 
   ENDMETHOD.
